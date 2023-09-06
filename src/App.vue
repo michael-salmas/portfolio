@@ -83,3 +83,6 @@ nav a:first-of-type {
   }
 }
 </style>
+<!-- To do somthing to show how fat youve scrolled. 
+  console.log(window.scrollY)
+console.log(document.body.scrollHeight-document.documentElement.clientHeight) -->
