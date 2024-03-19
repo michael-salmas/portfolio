@@ -1,14 +1,24 @@
 <template>
   <div class="wrapper">
-    <a href="https://github.com/michael-salmas" target="_blank">
+    <a
+      title="Github"
+      href="https://github.com/michael-salmas" 
+      target="_blank"
+    >
       <GithubIcon />
     </a>
     
-    <a href="https://www.linkedin.com/in/michael-salmas/" target="_blank">
+    <a 
+      title="LinkedIn" 
+      href="https://www.linkedin.com/in/michael-salmas/" 
+      target="_blank"
+    >
       <LinkedInIcon />
     </a>
     
-    <a>
+    <a 
+      title="Resume"
+    >
       <ResumeIcon />
     </a>
     
