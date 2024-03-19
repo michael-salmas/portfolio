@@ -1,13 +1,13 @@
 <template>
-    <div class="wrapper">
+  <div class="wrapper">
 
-        <GithubIcon />
-        
-        <LinkedInIcon />
-        
-        <ResumeIcon />
-        
-    </div>
+    <GithubIcon />
+    
+    <LinkedInIcon />
+    
+    <ResumeIcon />
+    
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -18,9 +18,9 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue';
 
 <style lang="scss" scoped>
 .wrapper {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 </style>

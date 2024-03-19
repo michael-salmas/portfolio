@@ -11,7 +11,9 @@
       
       <SideBarBottom/>
     </div>
-    <RouterView />
+    <div class="page-content">
+      <RouterView />
+    </div>
   </div>
 </template>
 
@@ -50,9 +52,14 @@ import SideBarBottom from '@/components/sidebar/SideBarBottom.vue'
 .full-page {
   display: flex;
   flex-direction: row;
+  height: 100vh;
 }
 
 .sidebar-wrapper {
   background-color: var();
 }
-</style>../components/sidebar/SideBarTop.vue/components/sidebar/SideBarBottom.vue
+
+.page-content {
+  flex-grow: 1;
+}
+</style>

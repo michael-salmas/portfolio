@@ -3,6 +3,7 @@
 body {
   font-family: 'Poppins';
   font-weight: 400;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -40,8 +41,3 @@ $themes: (
    accent: #a286a1,
  ),
 );
-
-body[data-theme="light"] {
-  background-color: map-get($themes, light, background);
-  color: map-get($themes, light, text);
-}
