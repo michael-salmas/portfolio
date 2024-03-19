@@ -1,11 +1,16 @@
 <template>
   <div class="wrapper">
-
-    <GithubIcon />
+    <a href="https://github.com/michael-salmas" target="_blank">
+      <GithubIcon />
+    </a>
     
-    <LinkedInIcon />
+    <a href="https://www.linkedin.com/in/michael-salmas/" target="_blank">
+      <LinkedInIcon />
+    </a>
     
-    <ResumeIcon />
+    <a>
+      <ResumeIcon />
+    </a>
     
   </div>
 </template>
@@ -23,4 +28,9 @@ import ResumeIcon from '@/components/icons/ResumeIcon.vue';
   justify-content: center;
   gap: 2rem;
 }
+
+a:hover{
+    cursor: pointer;
+}
+
 </style>
