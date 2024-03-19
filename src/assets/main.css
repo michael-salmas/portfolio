@@ -25,19 +25,17 @@ h5 {font-size: 1.333rem; /* 21.28px */}
 
 small {font-size: 0.750rem; /* 12px */}
 
-$themes: (
- light: (
-   text: #0d110d,
-   background: #ebefeb,
-   primary: #415341,
-   secondary: #aba6ba,
-   accent: #795d78,
- ),
- dark: (
-   text: #eef2ee,
-   background: #101410,
-   primary: #acbeac,
-   secondary: #4a4559,
-   accent: #a286a1,
- ),
-);
+:root[data-theme="light"] {
+  --text: #0d110d;
+  --background: #ebefeb;
+  --primary: #415341;
+  --secondary: #aba6ba;
+  --accent: #795d78;
+}
+:root[data-theme="dark"] {
+  --text: #eef2ee;
+  --background: #101410;
+  --primary: #acbeac;
+  --secondary: #4a4559;
+  --accent: #a286a1;
+}
