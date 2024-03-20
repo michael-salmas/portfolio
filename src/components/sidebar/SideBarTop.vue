@@ -2,7 +2,7 @@
   <div class="wrapper">
 
     <div class="photo">
-      <img src="@/assets/profile.jpg" alt="Michael Salmas Profile" />
+      <img src="/public/profile.jpg" alt="Michael Salmas Profile" />
     </div>
     <div class="name">
       Michael Salmas

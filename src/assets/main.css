@@ -26,16 +26,16 @@ h5 {font-size: 1.333rem; /* 21.28px */}
 small {font-size: 0.750rem; /* 12px */}
 
 :root[data-theme="light"] {
-  --text: #0d110d;
-  --background: #ebefeb;
-  --primary: #415341;
-  --secondary: #aba6ba;
-  --accent: #795d78;
+  --text: #1b0d1c;
+  --background: #f0f0f0;
+  --primary: #2c2f63;
+  --secondary: #cab286;
+  --accent: #809041;
 }
 :root[data-theme="dark"] {
-  --text: #eef2ee;
-  --background: #101410;
-  --primary: #acbeac;
-  --secondary: #4a4559;
-  --accent: #a286a1;
+  --text: #f1e3f2;
+  --background: #0f0f0f;
+  --primary: #9c9fd3;
+  --secondary: #796135;
+  --accent: #aebe6f;
 }
