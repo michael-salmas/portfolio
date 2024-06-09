@@ -1,0 +1,1 @@
+import{_ as o,o as s,c,p as t,h as a,a as d}from"./index-BfExmCVh.js";const _={},r=e=>(t("data-v-9d72bbd3"),e=e(),a(),e),n={class:"page"},p=r(()=>d("h1",null,"Projects Page",-1)),i=[p];function h(e,l){return s(),c("div",n,i)}const u=o(_,[["render",h],["__scopeId","data-v-9d72bbd3"]]);export{u as default};
